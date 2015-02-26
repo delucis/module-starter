@@ -37,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 300.0, 244.0, 53.0 ],
+					"patching_rect" : [ 15.0, 300.0, 229.0, 53.0 ],
 					"text" : "ADD YOUR PATCH CONTENT HERE",
 					"textcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : 1
@@ -72,7 +72,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 558.5, 300.0, 38.0 ],
+					"patching_rect" : [ 495.0, 543.5, 300.0, 38.0 ],
 					"presentation_rect" : [ 255.0, 381.5, 0.0, 0.0 ],
 					"text" : "In the inspector change the bpatcher’s argument “#1-module-name” to a unique name of your own"
 				}
@@ -265,7 +265,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 555.0, 229.0, 45.0 ],
+					"patching_rect" : [ 255.0, 540.0, 229.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 120.0, 229.0, 45.0 ],
 					"varname" : "modular.stereo-input-picker[1]"
@@ -322,6 +322,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
