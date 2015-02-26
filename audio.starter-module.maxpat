@@ -55,7 +55,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 15.0, 300.0, 38.0 ],
+					"patching_rect" : [ 244.0, 18.5, 300.0, 38.0 ],
 					"presentation_rect" : [ 255.0, 19.5, 0.0, 0.0 ],
 					"text" : "In the inspector change the bpatcher’s argument “#1-module-name” to a unique name of your own"
 				}
@@ -72,7 +72,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 495.0, 543.5, 300.0, 38.0 ],
+					"patching_rect" : [ 484.0, 543.5, 300.0, 38.0 ],
 					"presentation_rect" : [ 255.0, 381.5, 0.0, 0.0 ],
 					"text" : "In the inspector change the bpatcher’s argument “#1-module-name” to a unique name of your own"
 				}
@@ -80,6 +80,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.94, 0.94, 0.94, 1.0 ],
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -88,13 +89,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 630.0, 210.0, 249.0, 118.0 ],
+					"patching_rect" : [ 630.5, 205.0, 248.5, 118.0 ],
 					"text" : "Then add scripting names to all the objects in your module that you want to store for presets.\n\nRemember: if the order of messages when recalling presets is important, use priority messages to control the order in which things are recalled."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.94, 0.94, 0.94, 1.0 ],
 					"fontface" : 1,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 14.0,
@@ -111,6 +113,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.94, 0.94, 0.94, 1.0 ],
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
@@ -119,7 +122,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 627.0, 15.0, 101.0, 19.0 ],
+					"patching_rect" : [ 630.0, 15.0, 249.0, 19.0 ],
 					"text" : "PATTRSTORAGE"
 				}
 
