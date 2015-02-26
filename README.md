@@ -27,3 +27,9 @@ The `lib` folder contains simple abstractions that are universal to the “Modul
 The input & output pickers provide an interface for choosing audio input and output sources, which are dynamically generated in the main patch. Use these in a `[bpatcher]` and don’t forget to give them an argument `#1-your-unique-module-name` to make sure `[pattrstorage]` works correctly.
 
 Connect the outlets to `[send~]` or `[receive~]` objects to set the destination for a signal to be sent to.
+
+### `[pattrstorage]` helpers
+* `pattr-control.maxpat`
+* `read-write-pattr.maxpat`
+
+The starter patches come with a ready-to-use `[pattrstorage]` system for preset management in the main patch, using the above abstractions. To ensure they work, replace the indicated arguments with unique names.
