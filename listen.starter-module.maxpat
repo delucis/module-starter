@@ -155,6 +155,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "#1-module-name.json",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-63",
@@ -199,7 +200,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 810.0, 45.0, 59.5, 20.0 ],
 					"text" : "autopattr",
-					"varname" : "u472000495"
+					"varname" : "u762010114"
 				}
 
 			}
@@ -249,7 +250,7 @@
 					"args" : [ "#1-module-name" ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
-					"name" : "modular.data-output-picker.maxpat",
+					"name" : "modular.data-picker.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -334,22 +335,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "modular.stereo-input-picker.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/module-starter/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "../music-264-modular/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pattr-control.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/module-starter/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
+				"patcherrelativepath" : "../music-264-modular/lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "read-write-pattr.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/module-starter/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
+				"patcherrelativepath" : "../music-264-modular/lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -361,7 +362,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "modular.data-output-picker.maxpat",
+				"name" : "modular.data-picker.maxpat",
 				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/module-starter/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
