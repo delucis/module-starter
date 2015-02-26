@@ -2,7 +2,9 @@
 Generic project starter kit for building a module for the Music 264 “Modular”.
 
 ## Naming conventions
-Rename the module’s main Max patch to follow the naming convention for inclusion in the “Modular” project. The basic naming structure is `prefix.module-function.maxpat`.
+You should rename your module’s main Max patch to follow the following naming conventions for inclusion in the “Modular” project.
+
+The basic naming structure is `prefix.module-function.maxpat`.
 
 ### Prefixes
 Your patch should have one of the following prefixes followed by a period to separate it from the main name.
@@ -12,5 +14,5 @@ Your patch should have one of the following prefixes followed by a period to sep
 
 ### Main name
 Give your patch a short name that describes its functionality as clearly as possible.
-* Only abbreviate if the meaning remains relatively clear. `listen.envelope-follower` could be abbreviated to `listen.env-follower`, `audio.nz-gt` is not as immediately obvious as `audio.noise-gate`.
 * Try to keep it to a maximum of **two** hyphenated words if at all possible
+* Only abbreviate if the meaning remains relatively clear. `listen.envelope-follower` could be abbreviated to `listen.env-follower`, `audio.nz-gt` is not as immediately obvious as `audio.noise-gate`.
