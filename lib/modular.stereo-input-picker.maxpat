@@ -144,7 +144,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u203006351"
+					"varname" : "u769006428"
 				}
 
 			}
@@ -212,7 +212,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Connect to a send~, assigns R destination with set message",
+					"comment" : "Connect to a [receive~], assigns R source with set message",
 					"id" : "obj-5",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -223,7 +223,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Connect to a send~, assigns L destination with set message",
+					"comment" : "Connect to a [receive~], assigns L source with set message",
 					"id" : "obj-4",
 					"maxclass" : "outlet",
 					"numinlets" : 1,

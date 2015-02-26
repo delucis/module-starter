@@ -35,8 +35,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 15.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 140.0, 16.0, 0.0, 0.0 ]
+					"patching_rect" : [ 165.0, 15.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -145,7 +144,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u145008462"
+					"varname" : "u395006501"
 				}
 
 			}
@@ -213,7 +212,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Connect to a send~, assigns R destination with set message",
+					"comment" : "Connect to a [send~], assigns R destination with set message",
 					"id" : "obj-5",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -224,7 +223,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Connect to a send~, assigns L destination with set message",
+					"comment" : "Connect to a [send~], assigns L destination with set message",
 					"id" : "obj-4",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -416,21 +415,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "pattr-control.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
 				"patcherrelativepath" : "../externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "read-write-pattr.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
 				"patcherrelativepath" : "../externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "datetime.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
 				"patcherrelativepath" : "../externals",
 				"type" : "JSON",
 				"implicit" : 1
