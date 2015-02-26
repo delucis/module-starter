@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 167.0, 110.0, 898.0, 480.0 ],
+		"rect" : [ 167.0, 44.0, 898.0, 658.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,57 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 20.0,
+					"frgb" : 0.0,
+					"id" : "obj-17",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 45.0, 300.0, 244.0, 53.0 ],
+					"text" : "ADD YOUR PATCH CONTENT HERE",
+					"textcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-15",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 255.0, 15.0, 300.0, 38.0 ],
+					"presentation_rect" : [ 255.0, 19.5, 0.0, 0.0 ],
+					"text" : "In the inspector change the bpatcher’s argument “#1-module-name” to a unique name of your own"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 255.0, 558.5, 300.0, 38.0 ],
+					"presentation_rect" : [ 255.0, 381.5, 0.0, 0.0 ],
+					"text" : "In the inspector change the bpatcher’s argument “#1-module-name” to a unique name of your own"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 12.0,
@@ -112,9 +163,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 630.0, 135.0, 249.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 854, 172, 1208, 300 ],
+						"client_rect" : [ 0, 44, 1280, 796 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 766, 44, 1220, 302 ]
+						"storage_rect" : [ 583, 69, 1204, 530 ]
 					}
 ,
 					"text" : "pattrstorage #1-module-name @savemode 0",
@@ -147,7 +198,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 795.0, 45.0, 59.5, 20.0 ],
 					"text" : "autopattr",
-					"varname" : "u985001633"
+					"varname" : "u329000105"
 				}
 
 			}
@@ -159,7 +210,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 435.0, 79.0, 20.0 ],
+					"patching_rect" : [ 225.0, 615.0, 79.0, 20.0 ],
 					"text" : "send~ 2-dac"
 				}
 
@@ -172,7 +223,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 435.0, 79.0, 20.0 ],
+					"patching_rect" : [ 15.0, 615.0, 79.0, 20.0 ],
 					"text" : "send~ 1-dac"
 				}
 
@@ -207,14 +258,14 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1" ],
+					"args" : [ "#1-module-name" ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "modular.stereo-output-picker.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 375.0, 229.0, 45.0 ],
+					"patching_rect" : [ 15.0, 555.0, 229.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 120.0, 229.0, 45.0 ],
 					"varname" : "modular.stereo-input-picker[1]"
@@ -223,7 +274,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1" ],
+					"args" : [ "#1-module-name" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "modular.stereo-input-picker.maxpat",
