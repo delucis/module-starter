@@ -90,15 +90,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 284.5, 145.5, 273.0, 20.0 ],
+					"patching_rect" : [ 284.5, 145.5, 235.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 0, 44, 1280, 796 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 583, 69, 1204, 530 ]
 					}
 ,
-					"text" : "pattrstorage #1-data-output-picker @savemode 0",
-					"varname" : "#1-data-output-picker"
+					"text" : "pattrstorage #1-data-picker @savemode 0",
+					"varname" : "#1-data-picker"
 				}
 
 			}
@@ -111,8 +111,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 310.5, 114.5, 192.0, 20.0 ],
-					"text" : "pattr-control #1-data-output-picker"
+					"patching_rect" : [ 310.5, 114.5, 155.0, 20.0 ],
+					"text" : "pattr-control #1-data-picker"
 				}
 
 			}
