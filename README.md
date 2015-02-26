@@ -23,6 +23,7 @@ The `lib` folder contains simple abstractions that are universal to the “Modul
 ### Input & Output pickers
 * `modular.stereo-input-picker.maxpat`
 * `modular.stereo-output-picker.maxpat`
+
 The input & output pickers provide an interface for choosing input and output sources, which are dynamically generated in the main patch. Use these in a `[bpatcher]` and don’t forget to give them the argument `#1`.
 
 Connect the outlets to `[send~]` or `[receive~]` objects to set the destination for a signal to be sent to.
