@@ -1,5 +1,5 @@
 # Module Starter Kit
-Generic project starter kit for building a module for the Music 264 “Modular”.
+Generic project starter kit for building a module for the [Music 264 “Modular”](https://github.com/mus264/music-264-modular).
 
 ## Naming conventions
 You should rename your module’s main Max patch to follow the following naming conventions for inclusion in the “Modular” project.
