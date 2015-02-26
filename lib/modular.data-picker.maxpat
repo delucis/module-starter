@@ -131,7 +131,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u078000582"
+					"varname" : "u977010176"
 				}
 
 			}
@@ -156,10 +156,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 165.0, 87.0, 20.0 ],
+					"patching_rect" : [ 30.0, 165.0, 57.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 0.0, 87.0, 20.0 ],
-					"text" : "DATA OUTPUT"
+					"presentation_rect" : [ -1.0, 0.0, 57.0, 20.0 ],
+					"text" : "DATA I/O"
 				}
 
 			}
@@ -216,7 +216,7 @@
 					"patching_rect" : [ 30.0, 75.0, 100.0, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 19.0, 90.0, 20.0 ],
+					"presentation_rect" : [ 54.0, 0.0, 90.0, 20.0 ],
 					"varname" : "1-destination"
 				}
 
