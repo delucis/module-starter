@@ -139,12 +139,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 450.0, 60.5, 59.5, 20.0 ],
 					"restore" : 					{
-						"1-destination" : [ "1-dac" ],
-						"2-destination" : [ "1-dac" ]
+						"1-destination" : [ "1-adc" ],
+						"2-destination" : [ "1-adc" ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u336008948"
+					"varname" : "u203006351"
 				}
 
 			}
@@ -279,7 +279,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-15",
-					"items" : [ "1-dac", ",", "2-dac", ",", "3-dac", ",", "4-dac" ],
+					"items" : [ "1-adc", ",", "2-adc", ",", "3-adc", ",", "4-adc" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -298,7 +298,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
-					"items" : [ "1-dac", ",", "2-dac", ",", "3-dac", ",", "4-dac" ],
+					"items" : [ "1-adc", ",", "2-adc", ",", "3-adc", ",", "4-adc" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -415,21 +415,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "pattr-control.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
 				"patcherrelativepath" : "../externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "read-write-pattr.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
 				"patcherrelativepath" : "../externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "datetime.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
 				"patcherrelativepath" : "../externals",
 				"type" : "JSON",
 				"implicit" : 1
