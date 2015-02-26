@@ -127,11 +127,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 435.0, 60.5, 59.5, 20.0 ],
 					"restore" : 					{
-						"1-destination" : [ "1-data" ]
+						"1-data-io" : [ "1-data" ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u977010176"
+					"varname" : "u146010203"
 				}
 
 			}
@@ -197,8 +197,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 45.0, 143.0, 20.0 ],
-					"text" : "r data-destinations-menu"
+					"patching_rect" : [ 45.0, 45.0, 89.0, 20.0 ],
+					"text" : "r data-io-menu"
 				}
 
 			}
@@ -217,7 +217,7 @@
 					"pattrmode" : 1,
 					"presentation" : 1,
 					"presentation_rect" : [ 54.0, 0.0, 90.0, 20.0 ],
-					"varname" : "1-destination"
+					"varname" : "1-data-io"
 				}
 
 			}
