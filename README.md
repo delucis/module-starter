@@ -20,16 +20,23 @@ Give your patch a short name that describes its functionality as clearly as poss
 ## Utilities
 The `lib` folder contains simple abstractions that are universal to the “Modular” project. Use these in your modules to be consistent and ensure compatibility.
 
-### Input & Output pickers
+### Audio Input & Output pickers
 * `modular.stereo-input-picker.maxpat`
 * `modular.stereo-output-picker.maxpat`
-* `modular.data-picker.maxpat`
 
 The input & output pickers provide an interface for choosing audio & data input and output sources, which are dynamically generated in the main patch. Load them in a `[bpatcher]` in your module to use them.
 
-Connect the outlets of the audio modules to `[send~]` or `[receive~]` objects to set the destination for a signal to be sent to. The data module can be attached to either `[send]` or `[receive]` objects to set the destination for your data.
+The outputs send out the name of sources (input picker) or destinations (output picker). You can either prepend these with a `set` message and connect them directly to `[send~]` or `[receive~]` objects, or use them in tandem with the `[modular.send-switcher]`.
 
-The inlets connect to the `[umenu]` objects allowing you to send them defaults etc.
+### Data Output picker
+* `modular.data-picker.maxpat`
+
+The data module can be attached to either `[send]` or `[receive]` objects to set the destination for your data. The inlets connect to the `[umenu]` objects allowing you to send them defaults etc.
+
+### Send Switcher
+* `modular.send-switcher.maxpat`
+
+*Documentation to come.*
 
 ### `[pattrstorage]` helpers
 * `pattr-control.maxpat`
