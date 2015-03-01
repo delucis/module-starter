@@ -29,6 +29,53 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-12",
+					"linecount" : 12,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 630.5, 353.0, 248.5, 174.0 ],
+					"text" : "For the on/off switch to communicate with a [poly~] that is running your audio processes, this bpatcher will have to be loaded with two arguments in the main patch:\n\n1) an identifying integer, e.g. 1\n\n2) an identifying symbol, e.g. module\n\nThan the on/off will send it’s on/off status to a [receive] with the argument arg1-arg2-status, e.g. 1-module-status"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.94, 0.94, 0.94, 1.0 ],
+					"fontface" : 1,
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 630.5, 330.0, 248.5, 23.0 ],
+					"text" : "Using the on/off switch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "#1", "#2" ],
+					"id" : "obj-10",
+					"maxclass" : "bpatcher",
+					"name" : "control-poly-status-i.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 585.0, 330.0, 30.0, 30.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 45.0, 90.0, 30.0, 30.0 ],
+					"varname" : "control-poly-status-i"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 12.0,
 					"id" : "obj-18",
@@ -375,6 +422,13 @@
 			}
 , 			{
 				"name" : "modular.stereo-input-picker.maxpat",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/module-starter/lib",
+				"patcherrelativepath" : "./lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "control-poly-status-i.maxpat",
 				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/module-starter/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
