@@ -29,6 +29,25 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 120.0, 165.0, 59.5, 20.0 ],
+					"restore" : 					{
+						"1-data-io" : [ "1-data" ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u843007696"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "Messages to left umenu",
 					"id" : "obj-12",
 					"maxclass" : "inlet",
