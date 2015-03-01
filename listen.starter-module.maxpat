@@ -30,6 +30,77 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 225.0, 75.0, 75.0, 20.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 75.0, 75.0, 20.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 225.0, 105.0, 91.0, 20.0 ],
+					"text" : "receive~ 2-adc"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 15.0, 105.0, 91.0, 20.0 ],
+					"text" : "receive~ 1-adc"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "bpatcher",
+					"name" : "modular.stereo-input-picker.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 15.0, 15.0, 229.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 15.0, 229.0, 45.0 ],
+					"varname" : "modular.stereo-input-picker"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
 					"fontsize" : 20.0,
 					"frgb" : 0.0,
 					"id" : "obj-17",
@@ -41,38 +112,6 @@
 					"text" : "ADD YOUR PATCH CONTENT HERE",
 					"textcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Helvetica Neue",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-15",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 244.0, 18.5, 300.0, 38.0 ],
-					"text" : "In the inspector change the bpatcher’s argument “#1-module-name” to a unique name of your own"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Helvetica Neue",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-14",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 558.5, 300.0, 38.0 ],
-					"text" : "In the inspector change the bpatcher’s argument “#1-module-name” to a unique name of your own"
 				}
 
 			}
@@ -200,7 +239,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 810.0, 45.0, 59.5, 20.0 ],
 					"text" : "autopattr",
-					"varname" : "u762010114"
+					"varname" : "u563007774"
 				}
 
 			}
@@ -219,68 +258,23 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Helvetica Neue",
-					"fontsize" : 12.0,
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 225.0, 75.0, 91.0, 20.0 ],
-					"text" : "receive~ 2-adc"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Helvetica Neue",
-					"fontsize" : 12.0,
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 15.0, 75.0, 91.0, 20.0 ],
-					"text" : "receive~ 1-adc"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "#1-module-name" ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "modular.data-picker.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 555.0, 90.0, 45.0 ],
+					"patching_rect" : [ 150.0, 555.0, 150.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 120.0, 229.0, 45.0 ],
 					"varname" : "modular.data-output-picker"
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"args" : [ "#1-module-name" ],
-					"id" : "obj-1",
-					"maxclass" : "bpatcher",
-					"name" : "modular.stereo-input-picker.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 15.0, 229.0, 45.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 229.0, 45.0 ],
-					"varname" : "modular.stereo-input-picker"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
@@ -289,10 +283,28 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -334,35 +346,35 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "modular.stereo-input-picker.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
-				"patcherrelativepath" : "../music-264-modular/lib/abstractions",
+				"name" : "modular.data-picker.maxpat",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/module-starter/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pattr-control.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
-				"patcherrelativepath" : "../music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/20150127/01-objects-intro/lib",
+				"patcherrelativepath" : "../20150127/01-objects-intro/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "read-write-pattr.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
-				"patcherrelativepath" : "../music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/20150127/01-objects-intro/lib",
+				"patcherrelativepath" : "../20150127/01-objects-intro/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "datetime.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
-				"patcherrelativepath" : "../music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/20150127/01-objects-intro/lib",
+				"patcherrelativepath" : "../20150127/01-objects-intro/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "modular.data-picker.maxpat",
+				"name" : "modular.stereo-input-picker.maxpat",
 				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/module-starter/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
