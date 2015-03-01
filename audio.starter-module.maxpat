@@ -95,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 630.5, 353.0, 248.5, 174.0 ],
-					"text" : "For the on/off switch to communicate with a [poly~] that is running your audio processes, this bpatcher will have to be loaded with two arguments:\n\n1) an identifying integer, e.g. 1\n\n2) an identifying symbol, e.g. module\n\nThan the on/off will send it’s on/off status to a receive with the argument arg1-arg2-status, e.g. 1-module-status"
+					"text" : "For the on/off switch to communicate with a [poly~] that is running your audio processes, this bpatcher will have to be loaded with two arguments in the main patch:\n\n1) an identifying integer, e.g. 1\n\n2) an identifying symbol, e.g. module\n\nThan the on/off will send it’s on/off status to a [receive] with the argument arg1-arg2-status, e.g. 1-module-status"
 				}
 
 			}
